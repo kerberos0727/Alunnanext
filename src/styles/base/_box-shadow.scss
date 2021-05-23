@@ -1,0 +1,6 @@
+.box-shadow {
+    box-shadow: 0px 0px 5px rgba(32, 30, 25, 0.08);
+    &--large {
+        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    }
+}

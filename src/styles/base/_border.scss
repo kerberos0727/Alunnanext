@@ -1,0 +1,9 @@
+.border {
+    border-radius: 2px;
+    border: 1px solid $color-grey;
+    box-sizing: border-box;
+
+    &.border-hidden {
+        border: none;
+    }
+}

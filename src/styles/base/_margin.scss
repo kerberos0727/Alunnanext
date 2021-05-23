@@ -1,0 +1,19 @@
+.mg {
+    &.mg-b {
+        &-32 {
+            margin-bottom: 32px;
+        }
+    }
+    &.mg-r {
+        &-8 {
+            margin-right: 8px;
+        }
+        &-16 {
+            margin-right: 16px;
+        }
+    }
+    &.mg-p {
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+    }
+}

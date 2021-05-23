@@ -1,0 +1,29 @@
+.contact-us {
+    // padding-top: 80px;
+    .contact-us-social {
+        margin: 80px 0px;
+        padding: 24px 44px;
+        &-list {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            flex-wrap: wrap;
+            margin: 0;
+            padding: 0;
+            &-item {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin: 0px 12px;
+                &:first-child {
+                    margin-left: 0px;
+                }
+                svg {  
+                    width: 24px;
+                    height: 24px;
+                    margin-right: 6px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+.topic {
+    border: 1px solid $color-grey;
+    border-radius: 2px;
+
+    .topic-image {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 12px 24px;
+        box-sizing: border-box;
+        border-bottom: 1px solid $color-grey;
+
+        & > img {
+            width: 212px;
+            height: 212px;
+        }
+    }
+    .topic-desc {
+        padding: 24px;
+    }
+}
+
+.topics {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    padding: 40px 0px;
+    overflow-x: scroll;
+    .topic-item {
+        display: block;
+        width: 338px;
+        height: 100%;
+        box-sizing: border-box;
+        margin-right: 24px;
+        &:last-child {
+            margin-right: 0px;
+        }
+    }
+}

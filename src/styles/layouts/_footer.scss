@@ -1,0 +1,39 @@
+.footer {
+    background-color: #201f1a;
+    padding-top: 80px;
+    padding-bottom: 24px;
+    color: #757575;
+
+    address {
+        a {
+            padding: 8px 0px;
+            & > svg {
+                margin-right: 8px;
+            }
+        }
+    }
+
+    ol {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        & > li {
+            margin: 0;
+            padding: 8px 0px;
+        }
+    }
+
+    .footer-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        height: 32px;
+        width: 32px;
+        padding: 4px;
+        margin-right: 12px;
+        background-color: #757575;
+        color: black;
+        border-radius: 50%;
+    }
+}

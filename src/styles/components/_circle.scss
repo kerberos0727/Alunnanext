@@ -1,0 +1,16 @@
+.circle {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 26px;
+    height: 26px;
+    padding: 8px;
+    font-size: 16px;
+    color: $color-default;
+    box-sizing: border-box;
+    background-color: $color-white;
+    color: $color-primary;
+    border-radius: 50%;
+    border: 1px solid $color-grey;
+}

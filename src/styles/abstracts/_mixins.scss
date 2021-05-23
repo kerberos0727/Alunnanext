@@ -1,0 +1,7 @@
+/* COLOR MIXINS */
+@mixin color($color) {
+    color: $color;
+}
+@mixin backgroundColor($color) {
+    background-color: $color;
+}

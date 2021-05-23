@@ -1,0 +1,28 @@
+.container {
+    width: 1336px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.content {
+    margin: auto;
+    padding: 80px 0px;
+    width: 1062px;
+    box-sizing: border-box;
+}
+
+.full-height {
+    height: 100%;
+}
+
+@media only screen and (max-width: 1336px) {
+    .content {
+        width: 100%;
+        padding: 80px 16px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 0px 16px;
+    }
+}

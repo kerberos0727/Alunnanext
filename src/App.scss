@@ -1,0 +1,208 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+td,
+th span,
+th {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+}
+
+span {
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.app-bar {
+  background: linear-gradient(221.09deg, #019bcd 25.25%, #05e8b0 84.44%);
+  > div:last-child {
+    margin-right: 0 !important;
+  }
+}
+
+.page-title {
+  text-align: center;
+  margin: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+// pages
+.home {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.gutter {
+  padding: 10px;
+}
+
+/* FLEXBOX UTILS */
+.d-flex {
+  display: flex !important;
+}
+.justify-content-start {
+  justify-content: flex-start !important;
+}
+.justify-content-end {
+  justify-content: flex-end !important;
+}
+.justify-content-around {
+  justify-content: space-around !important;
+}
+.justify-content-between {
+  justify-content: space-between !important;
+}
+.justify-content-center {
+  justify-content: center !important;
+}
+
+.flex-row {
+  flex-direction: row !important;
+}
+.flex-row-reverse {
+  flex-direction: row-reverse !important;
+}
+.flex-column {
+  flex-direction: column !important;
+}
+.flex-column-reverse {
+  flex-direction: column-reverse !important;
+}
+
+.align-items-start {
+  align-items: flex-start !important;
+}
+.align-items-end {
+  align-items: flex-end !important;
+}
+.align-items-center {
+  align-items: center !important;
+}
+
+.flex-wrap {
+  flex-wrap: wrap !important;
+}
+.flex-nowrap {
+  flex-wrap: nowrap !important;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+.mr-auto {
+  margin-right: auto;
+}
+
+/* LAYOUT UTILS */
+.container-fluid {
+  height: 100%;
+  width: 100%;
+  // padding-right: 24px;
+  // padding-left: 24px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.h-100vh {
+  height: 100vh;
+}
+
+.page-content {
+  margin-top: 2rem;
+  /* TODO: This css is temporary. Should remove it on prod */
+  // margin-left: 240px
+  margin-bottom: 4rem;
+}
+
+.vertical-align-middle {
+  vertical-align: middle;
+}
+
+/* INPUT TEL */
+.react-tel-input > .form-control {
+  width: 100% !important;
+  height: 54px !important;
+}
+// input[type=tel] {
+//   width: 100% !important;
+//   background-color: #fafafa !important;
+//   border: 0 !important;
+//   font-size: 16px !important;
+// }
+
+input[type='date']::-webkit-inner-spin-button,
+input[type='date']::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
+
+.MuiInput-underline:before {
+  border-bottom: 1px solid #0083bb !important;
+}
+
+/* TEXT UTILS */
+.text-center {
+  text-align: center;
+}
+
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+/* UL, LI UTILS */
+ul {
+  list-style: none;
+}
+
+/* SECTION UTILS*/
+.section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* POSITION UTILS */
+.position-relative {
+  position: relative !important;
+}
+
+.position-absolute {
+  position: absolute !important;
+}
+
+.position-fixed {
+  position: fixed !important;
+}
+
+.position-static {
+  position: static !important;
+}
+
+form {
+  margin-block-end: 0;
+}
+
+.root-font {
+  font-family: 'Inter';
+}
+
+.rec.rec-arrow-left {
+  z-index: 2;
+}

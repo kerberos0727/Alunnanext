@@ -1,0 +1,10 @@
+.PhoneInput {
+    padding: 8px 12px;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+
+    & > .PhoneInputInput {
+        border: none;
+        outline: none;
+    }
+  }

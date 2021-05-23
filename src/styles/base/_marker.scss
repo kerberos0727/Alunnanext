@@ -1,0 +1,7 @@
+li {
+    &.marker-primary {
+        &::marker {
+            color: $color-primary;
+        }
+    }
+}

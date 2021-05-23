@@ -1,0 +1,53 @@
+.color {
+    &-primary {
+        @include color($color-primary);
+    }
+    &-secondary {
+        @include color($color-secondary);
+    }
+    &-default {
+        @include color($color-default);
+    }
+    &-success {
+        @include color($color-success);
+    }
+    &-error {
+        @include color($color-error);
+    }
+    &-white {
+        @include color($color-white);
+    }
+    &-action {
+        @include color($color-action);
+    }
+    &-grey {
+        @include color($color-grey);
+    }
+}
+
+.background {
+    &.background-primary {
+        @include backgroundColor($color-primary);
+    }
+    &.background-secondary {
+        @include backgroundColor($color-secondary);
+    }
+    &.background-default {
+        @include backgroundColor($color-default);
+    }
+    &.background-success {
+        @include backgroundColor($color-success);
+    }
+    &.background-error {
+        @include backgroundColor($color-error);
+    }
+    &.background-white {
+        @include backgroundColor($color-white);
+    }
+    &.background-action {
+        @include backgroundColor($color-action);
+    }
+    &.background-grey {
+        @include backgroundColor($color-grey);
+    }
+}
